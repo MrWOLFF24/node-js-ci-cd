@@ -1,0 +1,33 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "a simple node.js app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrWOLFF24/node-js-ci-cd.git"
+  },
+  "keywords": [
+    "nodejs",
+    "ci/cd",
+    "jenkins",
+    "docker"
+  ],
+  "author": "haroon <kakashi24@live.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrWOLFF24/node-js-ci-cd/issues"
+  },
+  "homepage": "https://github.com/MrWOLFF24/node-js-ci-cd#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}
